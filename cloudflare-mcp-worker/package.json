@@ -1,0 +1,19 @@
+{
+  "name": "cloudflare-mcp-toolkit",
+  "version": "1.0.0",
+  "description": "Serveur MCP universel pour Cloudflare Workers - Contrôle total KV, R2, D1, Workers AI, Vectorize, HTTP",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^3.100.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "itty-router": "^5.0.14",
+    "zod": "^3.23.8"
+  }
+}
